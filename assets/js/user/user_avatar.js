@@ -46,8 +46,8 @@ $(function () {
                 height: 100
             })
             .toDataURL('image/png')       // 将 Canvas 画布上的内容，转化为 base64 格式的字符串
-        console.log(dataURL);
-        console.log(typeof dataURL)
+        // console.log(dataURL);
+        // console.log(typeof dataURL)
         // 发送ajax请求
         $.ajax({
             method: 'POST',
